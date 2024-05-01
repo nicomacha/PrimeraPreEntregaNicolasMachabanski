@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "nombre": "ROBOT DEF-931",
+    "imagen": "img/robot-defensa.jpg",
+    "precio": "500.000",
+    "cuotas": "6 CUOTAS SIN INTERES DE",
+    "descripcion": "Tu Guardián Confiable",
+    "categoria": "robot",
+    "stock": 21
+  },
+  {
+    "id": 2,
+    "nombre": "ROBOT CHEF-500",
+    "imagen": "img/robot-comida.jpg",
+    "precio": "375.000",
+    "cuotas": "6 CUOTAS SIN INTERES DE",
+    "descripcion": "Tu Ayudante Culinario",
+    "categoria": "sale",
+    "stock": 150
+  },
+  {
+    "id": 3,
+    "nombre": "MUSIC-BOT 3000",
+    "imagen": "img/robot-music.jpg",
+    "precio": "220.000",
+    "cuotas": "6 CUOTAS SIN INTERES DE",
+    "descripcion": "Tu DJ Personal",
+    "categoria": "robot",
+    "stock": 320
+  },
+  {
+    "id": 4,
+    "nombre": "PACKER-BOT 4000",
+    "imagen": "img/robot-acomodador.jpg",
+    "precio": "400.000",
+    "cuotas": "6 CUOTAS SIN INTERES DE",
+    "descripcion": "Tu Organizador Eficiente",
+    "categoria": "robot",
+    "stock": 56
+  },
+  {
+    "id": 5,
+    "nombre": "PEST-BOT 5000",
+    "imagen": "img/robot-raid.jpg",
+    "precio": "160.000",
+    "cuotas": "6 CUOTAS SIN INTERES DE",
+    "descripcion": "Tu Exterminador de Plagas",
+    "categoria": "robot",
+    "stock": 67
+  },
+  {
+    "id": 6,
+    "nombre": "PROF-BOT 6000",
+    "imagen": "img/robot-profe.jpg",
+    "precio": "100.000",
+    "cuotas": "6 CUOTAS SIN INTERES DE",
+    "descripcion": "Tu Maestro Virtual",
+    "categoria": "robot",
+    "stock": 938
+  }
+]
