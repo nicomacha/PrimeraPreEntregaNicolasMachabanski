@@ -1,8 +1,16 @@
 import { Link } from "react-router-dom";
-
+import { useNavigate } from "react-router-dom";
 const Item = ({ producto }) => {
+  const navigate = useNavigate();
+  function irAlDetalle() {
+    navigate(`/producto/${producto.id}`);
+  }
   return (
-    <div className="col-md-4 text-center ">
+    <div
+      className="col-md-4 text-center"
+      style={{ cursor: "pointer" }}
+      onClick={irAlDetalle}
+    >
       <Link to={"/item/" + producto.id}></Link>
       <div className="card my-5">
         <img

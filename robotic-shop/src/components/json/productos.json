@@ -6,7 +6,7 @@
     "precio": "500.000",
     "cuotas": "6 CUOTAS SIN INTERES DE",
     "descripcion": "Tu Guardián Confiable",
-    "categoria": "robot",
+    "categoria": "ROBOT",
     "stock": 21
   },
   {
@@ -16,7 +16,7 @@
     "precio": "375.000",
     "cuotas": "6 CUOTAS SIN INTERES DE",
     "descripcion": "Tu Ayudante Culinario",
-    "categoria": "sale",
+    "categoria": "SALE",
     "stock": 150
   },
   {
@@ -26,7 +26,7 @@
     "precio": "220.000",
     "cuotas": "6 CUOTAS SIN INTERES DE",
     "descripcion": "Tu DJ Personal",
-    "categoria": "robot",
+    "categoria": "ROBOT",
     "stock": 320
   },
   {
@@ -36,7 +36,7 @@
     "precio": "400.000",
     "cuotas": "6 CUOTAS SIN INTERES DE",
     "descripcion": "Tu Organizador Eficiente",
-    "categoria": "robot",
+    "categoria": "ROBOT",
     "stock": 56
   },
   {
@@ -46,7 +46,7 @@
     "precio": "160.000",
     "cuotas": "6 CUOTAS SIN INTERES DE",
     "descripcion": "Tu Exterminador de Plagas",
-    "categoria": "robot",
+    "categoria": "SALE",
     "stock": 67
   },
   {
@@ -56,7 +56,7 @@
     "precio": "100.000",
     "cuotas": "6 CUOTAS SIN INTERES DE",
     "descripcion": "Tu Maestro Virtual",
-    "categoria": "robot",
+    "categoria": "SALE",
     "stock": 938
   }
 ]

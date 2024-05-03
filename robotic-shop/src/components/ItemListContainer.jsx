@@ -5,13 +5,20 @@ import { useParams } from "react-router-dom";
 
 const ItemListContainer = () => {
   const [items, setItems] = useState([]);
-  const { id } = useParams();
-
+  console.log(items);
+  const { category } = useParams();
+  const id = "";
+  console.log(category);
   useEffect(() => {
     const promesa = new Promise((resolve) => {
       setTimeout(() => {
         resolve(
-          id ? listaProductos.filter(items.categoria == id) : listaProductos
+          category
+            ? listaProductos.filter(
+                (items) =>
+                  items.categoria.toLowerCase() == category.toLowerCase()
+              )
+            : listaProductos
         );
       }, 2000);
     });
@@ -19,7 +26,7 @@ const ItemListContainer = () => {
     promesa.then((respuesta) => {
       setItems(respuesta);
     });
-  }, [id]);
+  }, [category]);
 
   return (
     <div className="container">

@@ -12,8 +12,8 @@ function App() {
       <CarruPrinc />
       <Routes>
         <Route path={"/"} element={<ItemListContainer />} />
-        <Route path={"/categoria/ROBOT"} element={<ItemListContainer />} />
-        <Route path={"/categoria/SALE"} element={<ItemListContainer />} />
+        <Route path={"/categoria/:category"} element={<ItemListContainer />} />
+        <Route path={"/categoria/SALE/"} element={<ItemListContainer />} />
         <Route path={"/producto/:id"} element={<ItemDetailContainer />} />
         <Route path={"*"} element={<Error404 />} />
       </Routes>
